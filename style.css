@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/stars.jpg);
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 2rem;
+    background-color: rgb(0, 0, 26);
+    border-style: solid;
+}
+
+.nav-button {
+    font-size: 1.5rem;
+    color: white;
+    background: rgb(0, 0, 26);
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a:hover, a:visited { 
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    background-image: url('assets/cantina-tables.jpeg');   
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    background-image: url('assets/cantina-bar.jpg');   
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.card {
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    background: rgb(37, 37, 37);
+    padding: 15px;
+    opacity: 75%;
+    border-radius: 15px;
+}
+
+.item {
+    margin: 10px;
+    padding: 10px;
+    background: rgb(37, 37, 37);
+    opacity: 85%;
+    border-radius: 15px;
+    height: 120px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.main-image {
+    position: relative;
+    border-style: solid;
+    margin: 25px;
+}
+
+.main-image p {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+.quote {
+    background-color: rgb(37, 37, 37);
+}
+
+.description {
+    background:rgb(0, 0, 26);
+    padding: 30px;
+    border-style: solid;
+}
